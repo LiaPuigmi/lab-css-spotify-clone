@@ -6,3 +6,59 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Parte de arriba, encabezado */
+
+body{
+    display: block;
+}
+
+header{
+    background-color: #fff;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    font-size: 1rem;
+  
+  }
+
+  #spotiLogo{
+    width: 25%;
+    margin: 1%;
+    float: left;
+  }
+
+  nav{
+    width: 40%;
+    height:auto;
+    float: right;
+    text-align: right;
+    padding: 3%;
+    
+    
+  }
+  
+  #fix{
+    position: fixed;
+    width: 100%;
+    margin-bottom: 1%;
+    box-sizing: content-box;
+  }
+  
+ .clearfix{
+    clear: both;
+  }
+
+  #content{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 166, 255);
+    min-height: 20%;
+    align-content: center;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 10%;
+    
+  }
